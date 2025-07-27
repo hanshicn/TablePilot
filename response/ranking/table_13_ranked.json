@@ -1,0 +1,379 @@
+[
+    {
+        "query": "Filter the data to show only the vintage years where the Preqin Median Net IRR is greater than 12%.",
+        "criteria": {
+            "Meaningful": {
+                "score": 5,
+                "reason": "This query is highly meaningful as it directly identifies high-performing vintage years, which is crucial for investment analysis."
+            },
+            "Relative": {
+                "score": 5,
+                "reason": "The query is directly related to the table theme of analyzing investment performance by vintage year."
+            },
+            "Reasonableness": {
+                "score": 5,
+                "reason": "The query is logical and suitable for the data, focusing on a key performance metric."
+            },
+            "Diversity": {
+                "score": 4,
+                "reason": "While filtering is a common task, it provides a unique perspective by focusing on high IRR values."
+            },
+            "Interpretable": {
+                "score": 5,
+                "reason": "The query is straightforward and easy to understand and implement."
+            },
+            "Insightful": {
+                "score": 4,
+                "reason": "The query provides insights into which years had superior investment performance."
+            }
+        }
+    },
+    {
+        "query": "Sort the data by the 'LN PME Using S&P 500 TR' column in descending order to identify which vintage years had the highest relative performance compared to the S&P 500.",
+        "criteria": {
+            "Meaningful": {
+                "score": 4,
+                "reason": "Sorting by LN PME provides insights into relative performance, which is useful but not as directly actionable as filtering."
+            },
+            "Relative": {
+                "score": 5,
+                "reason": "The query aligns well with the theme of comparing private and public market performance."
+            },
+            "Reasonableness": {
+                "score": 5,
+                "reason": "Sorting is a reasonable operation to identify top-performing years."
+            },
+            "Diversity": {
+                "score": 3,
+                "reason": "Sorting is a basic operation, and this query doesn't add much diversity to the analysis."
+            },
+            "Interpretable": {
+                "score": 5,
+                "reason": "The query is clear and easy to execute."
+            },
+            "Insightful": {
+                "score": 3,
+                "reason": "While it highlights top years, it doesn't provide deeper insights beyond ranking."
+            }
+        }
+    },
+    {
+        "query": "Group the data by 'Vintage' and calculate the average 'Preqin Median Net IRR' for each vintage year.",
+        "criteria": {
+            "Meaningful": {
+                "score": 3,
+                "reason": "Averages provide a general view but may not capture the nuances of performance variations."
+            },
+            "Relative": {
+                "score": 4,
+                "reason": "The query is relevant as it focuses on a key performance metric over time."
+            },
+            "Reasonableness": {
+                "score": 4,
+                "reason": "Grouping by vintage is logical, but averaging may oversimplify the data."
+            },
+            "Diversity": {
+                "score": 3,
+                "reason": "Grouping and averaging are common tasks, offering limited diversity."
+            },
+            "Interpretable": {
+                "score": 5,
+                "reason": "The query is simple and easy to understand."
+            },
+            "Insightful": {
+                "score": 2,
+                "reason": "Averages may obscure important variations and trends in the data."
+            }
+        }
+    },
+    {
+        "query": "Create a pivot table to compare the 'Preqin Median Net IRR' and 'LN PME Using S&P 500 TR' for each vintage year.",
+        "criteria": {
+            "Meaningful": {
+                "score": 4,
+                "reason": "The pivot table provides a comprehensive comparison of key metrics."
+            },
+            "Relative": {
+                "score": 5,
+                "reason": "The query is highly relevant as it directly compares private and public performance."
+            },
+            "Reasonableness": {
+                "score": 5,
+                "reason": "Creating a pivot table is a logical way to compare multiple metrics."
+            },
+            "Diversity": {
+                "score": 4,
+                "reason": "The pivot table adds diversity by combining multiple metrics in one view."
+            },
+            "Interpretable": {
+                "score": 4,
+                "reason": "The pivot table is slightly more complex but still understandable."
+            },
+            "Insightful": {
+                "score": 4,
+                "reason": "The query offers insights into how private and public performances compare across years."
+            }
+        }
+    },
+    {
+        "query": "Add a new column to the table that calculates the difference between 'Preqin Median Net IRR' and 'LN PME Using S&P 500 TR' to assess the outperformance of private investments over the public market for each vintage year.",
+        "criteria": {
+            "Meaningful": {
+                "score": 5,
+                "reason": "This query directly measures outperformance, providing actionable insights."
+            },
+            "Relative": {
+                "score": 5,
+                "reason": "The query is highly relevant as it focuses on comparing private and public performance."
+            },
+            "Reasonableness": {
+                "score": 5,
+                "reason": "Calculating differences is a logical and suitable operation for this data."
+            },
+            "Diversity": {
+                "score": 5,
+                "reason": "The query adds diversity by introducing a new calculated metric."
+            },
+            "Interpretable": {
+                "score": 5,
+                "reason": "The query is clear and easy to implement."
+            },
+            "Insightful": {
+                "score": 5,
+                "reason": "The query provides deep insights into the relative performance of investments."
+            }
+        }
+    },
+    {
+        "query": "Generate a line chart to analyze the trend of Preqin Median Net IRR over the Vintage years.",
+        "criteria": {
+            "Meaningful": {
+                "score": 4,
+                "reason": "The line chart effectively shows trends over time, which is useful for understanding performance changes."
+            },
+            "Relative": {
+                "score": 5,
+                "reason": "The chart is relevant as it focuses on a key performance metric over time."
+            },
+            "Reasonableness": {
+                "score": 5,
+                "reason": "A line chart is a suitable choice for visualizing trends over time."
+            },
+            "Diversity": {
+                "score": 3,
+                "reason": "Line charts are common, offering limited diversity."
+            },
+            "Interpretable": {
+                "score": 5,
+                "reason": "The chart is clear and easy to interpret."
+            },
+            "Insightful": {
+                "score": 4,
+                "reason": "The chart reveals trends and fluctuations in performance over the years."
+            }
+        }
+    },
+    {
+        "query": "Create a bar chart to compare the Preqin Median Net IRR and LN PME Using S&P 500 TR for each Vintage year.",
+        "criteria": {
+            "Meaningful": {
+                "score": 4,
+                "reason": "The bar chart provides a clear comparison of two key metrics."
+            },
+            "Relative": {
+                "score": 5,
+                "reason": "The chart is relevant as it compares private and public performance."
+            },
+            "Reasonableness": {
+                "score": 5,
+                "reason": "A bar chart is a logical choice for comparing discrete values."
+            },
+            "Diversity": {
+                "score": 4,
+                "reason": "The chart adds diversity by comparing two metrics side by side."
+            },
+            "Interpretable": {
+                "score": 5,
+                "reason": "The chart is straightforward and easy to understand."
+            },
+            "Insightful": {
+                "score": 4,
+                "reason": "The chart highlights differences in performance between the two metrics."
+            }
+        }
+    },
+    {
+        "query": "Plot a scatter chart to examine the correlation between Preqin Median Net IRR and LN PME Using S&P 500 TR across different Vintage years.",
+        "criteria": {
+            "Meaningful": {
+                "score": 3,
+                "reason": "The scatter chart shows correlation but may not provide actionable insights."
+            },
+            "Relative": {
+                "score": 5,
+                "reason": "The chart is relevant as it examines the relationship between two key metrics."
+            },
+            "Reasonableness": {
+                "score": 5,
+                "reason": "A scatter chart is suitable for visualizing correlations."
+            },
+            "Diversity": {
+                "score": 4,
+                "reason": "The chart adds diversity by focusing on correlation rather than trends or comparisons."
+            },
+            "Interpretable": {
+                "score": 4,
+                "reason": "The chart is clear but requires some understanding of correlation."
+            },
+            "Insightful": {
+                "score": 3,
+                "reason": "The chart shows correlation but doesn't provide deeper insights into causation."
+            }
+        }
+    },
+    {
+        "query": "Create a combo chart with a line and bar to show the Preqin Median Net IRR as a line and LN PME Using S&P 500 TR as bars over the Vintage years.",
+        "criteria": {
+            "Meaningful": {
+                "score": 5,
+                "reason": "The combo chart provides a comprehensive view of trends and comparisons."
+            },
+            "Relative": {
+                "score": 5,
+                "reason": "The chart is highly relevant as it combines two key metrics."
+            },
+            "Reasonableness": {
+                "score": 5,
+                "reason": "A combo chart is a suitable choice for visualizing both trends and comparisons."
+            },
+            "Diversity": {
+                "score": 5,
+                "reason": "The chart adds diversity by combining two types of visualizations."
+            },
+            "Interpretable": {
+                "score": 4,
+                "reason": "The chart is slightly more complex but still understandable."
+            },
+            "Insightful": {
+                "score": 5,
+                "reason": "The chart provides deep insights by showing both trends and relative performance."
+            }
+        }
+    },
+    {
+        "query": "Generate a stacked bar chart to visualize the cumulative performance of Preqin Median Net IRR and LN PME Using S&P 500 TR for each Vintage year.",
+        "criteria": {
+            "Meaningful": {
+                "score": 4,
+                "reason": "The stacked bar chart shows cumulative performance, which is useful for understanding overall impact."
+            },
+            "Relative": {
+                "score": 5,
+                "reason": "The chart is relevant as it focuses on cumulative performance of key metrics."
+            },
+            "Reasonableness": {
+                "score": 5,
+                "reason": "A stacked bar chart is a suitable choice for visualizing cumulative data."
+            },
+            "Diversity": {
+                "score": 5,
+                "reason": "The chart adds diversity by focusing on cumulative performance."
+            },
+            "Interpretable": {
+                "score": 4,
+                "reason": "The chart is clear but requires understanding of cumulative data."
+            },
+            "Insightful": {
+                "score": 4,
+                "reason": "The chart provides insights into the overall contribution of each metric to total performance."
+            }
+        }
+    },
+    {
+        "query": "Perform a trend prediction analysis to forecast the 'Preqin Median Net IRR' for the next 5 years based on historical data from the 'Vintage' column.",
+        "criteria": {
+            "Meaningful": {
+                "score": 3,
+                "reason": "The forecast provides future insights but is limited by data non-stationarity."
+            },
+            "Relative": {
+                "score": 4,
+                "reason": "The query is relevant as it focuses on predicting a key performance metric."
+            },
+            "Reasonableness": {
+                "score": 3,
+                "reason": "The data's non-stationarity makes the prediction less reliable."
+            },
+            "Diversity": {
+                "score": 4,
+                "reason": "The query adds diversity by focusing on future predictions."
+            },
+            "Interpretable": {
+                "score": 3,
+                "reason": "The forecast requires understanding of trend analysis and its limitations."
+            },
+            "Insightful": {
+                "score": 3,
+                "reason": "The forecast offers potential insights but is limited by data issues."
+            }
+        }
+    },
+    {
+        "query": "Conduct a correlation test to determine the relationship between 'Preqin Median Net IRR' and 'LN PME Using S&P 500 TR'.",
+        "criteria": {
+            "Meaningful": {
+                "score": 4,
+                "reason": "The correlation test provides insights into the relationship between two key metrics."
+            },
+            "Relative": {
+                "score": 5,
+                "reason": "The query is relevant as it examines the relationship between private and public performance."
+            },
+            "Reasonableness": {
+                "score": 5,
+                "reason": "A correlation test is a logical choice for examining relationships."
+            },
+            "Diversity": {
+                "score": 4,
+                "reason": "The query adds diversity by focusing on statistical relationships."
+            },
+            "Interpretable": {
+                "score": 4,
+                "reason": "The test is clear but requires understanding of correlation coefficients and p-values."
+            },
+            "Insightful": {
+                "score": 4,
+                "reason": "The test provides insights into the strength and significance of the relationship."
+            }
+        }
+    },
+    {
+        "query": "Build a regression model to predict 'Preqin Median Net IRR' using 'Vintage' and 'LN PME Using S&P 500 TR' as independent variables.",
+        "criteria": {
+            "Meaningful": {
+                "score": 3,
+                "reason": "The regression model provides predictive insights but is limited by low R-squared and high p-values."
+            },
+            "Relative": {
+                "score": 4,
+                "reason": "The query is relevant as it focuses on predicting a key performance metric."
+            },
+            "Reasonableness": {
+                "score": 3,
+                "reason": "The model's low R-squared and high p-values indicate limited reliability."
+            },
+            "Diversity": {
+                "score": 4,
+                "reason": "The query adds diversity by focusing on predictive modeling."
+            },
+            "Interpretable": {
+                "score": 3,
+                "reason": "The model requires understanding of regression analysis and its limitations."
+            },
+            "Insightful": {
+                "score": 3,
+                "reason": "The model offers potential insights but is limited by statistical issues."
+            }
+        }
+    }
+]

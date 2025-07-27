@@ -1,0 +1,1 @@
+Generate a stacked bar chart to visualize the cumulative performance of Preqin Median Net IRR and LN PME Using S&P 500 TR for each Vintage year.

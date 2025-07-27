@@ -1,0 +1,1 @@
+Create a line chart to analyze the trend of 'Tax Rate %' over the 'Tax Year'.

@@ -1,0 +1,1 @@
+Create a bar chart to compare the composite deprivation scores (Column B) across different Unitary Authorities (Column A) in the South East region.

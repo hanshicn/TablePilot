@@ -1,0 +1,1 @@
+Add a new column to the table that calculates the difference between 'Preqin Median Net IRR' and 'LN PME Using S&P 500 TR' to assess the outperformance of private investments over the public market for each vintage year.

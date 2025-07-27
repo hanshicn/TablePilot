@@ -1,0 +1,1 @@
+Build a regression model to predict 'Preqin Median Net IRR' using 'Vintage' and 'LN PME Using S&P 500 TR' as independent variables.

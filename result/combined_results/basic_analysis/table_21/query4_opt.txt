@@ -1,0 +1,1 @@
+Create a pivot table to summarize the average percentage of the population affected by a certain deprivation factor (Column D) for each Unitary Authority (Column A).

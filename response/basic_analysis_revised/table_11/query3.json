@@ -1,0 +1,5 @@
+{
+    "improvement_reason": "The original code correctly groups the data by 'Tax Year' and calculates the average 'Factor' for each year. However, it does not handle potential issues such as missing values in the 'Factor' column, which could affect the calculation of the mean. To ensure robustness, the code should include a step to handle missing values by either filling them with a default value or dropping them before performing the group by operation. This will ensure that the mean calculation is accurate and not skewed by NaN values.",
+    "original_query": "Group the data by 'Tax Year' and calculate the average 'Factor' for each year to understand how the factor has changed over time.",
+    "optimized_code": "import pandas as pd\ndf = pd.read_csv('table_name.csv')\n# Handle missing values in 'Factor' by dropping them\ndf = df.dropna(subset=['Factor'])\ngrouped_df = df.groupby('Tax Year')['Factor'].mean().reset_index()\ngrouped_df.to_csv('output.csv', index=False)"
+}

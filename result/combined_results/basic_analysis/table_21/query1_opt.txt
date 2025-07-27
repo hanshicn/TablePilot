@@ -1,0 +1,1 @@
+Filter the dataset to find the Unitary Authorities with a composite score (Column B) less than 10000, indicating higher deprivation.

@@ -1,0 +1,1 @@
+Filter the table to show only the years where the 'Tax Rate %' was greater than or equal to 70%.

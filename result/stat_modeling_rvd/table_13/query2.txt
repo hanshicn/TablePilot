@@ -1,0 +1,3 @@
+Correlation Method: Pearson
+Correlation Coefficient: 0.5801760045638669
+P-value: 0.023369098317912687

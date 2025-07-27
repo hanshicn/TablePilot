@@ -1,0 +1,1 @@
+Sort the table by 'Slope' in descending order to identify the years with the steepest changes in tax policy.

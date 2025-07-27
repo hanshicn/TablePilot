@@ -1,0 +1,1 @@
+Create a stacked bar chart to show the distribution of 'Tax Rate %' and 'Factor' over 'Tax Year'.

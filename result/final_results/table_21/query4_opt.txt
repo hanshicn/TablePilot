@@ -1,0 +1,1 @@
+Perform a correlation test between the composite deprivation score (Column B) and the percentage of population affected by a certain deprivation factor (Column D) to determine the strength and significance of their relationship.

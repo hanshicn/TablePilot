@@ -1,0 +1,1 @@
+Group the data by 'Tax Year' and calculate the average 'Factor' for each year to understand how the factor has changed over time.

@@ -1,0 +1,1 @@
+Generate a line chart to observe the trend of the final deprivation rank (Column K) across different Unitary Authorities (Column A).

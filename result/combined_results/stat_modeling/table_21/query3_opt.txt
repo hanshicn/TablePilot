@@ -1,0 +1,1 @@
+Perform a correlation test between the final rank or score (Column K) and the composite deprivation score (Column B) to assess the relationship between overall deprivation status and the composite score.

@@ -1,0 +1,1 @@
+Sort the data by the 'LN PME Using S&P 500 TR' column in descending order to identify which vintage years had the highest relative performance compared to the S&P 500.

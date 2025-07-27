@@ -1,0 +1,1 @@
+Create a pivot table to summarize the average 'Slope' for each 'Tax Rate %' across different 'Tax Years'.

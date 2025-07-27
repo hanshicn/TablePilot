@@ -1,0 +1,1 @@
+Filter the data to show only the vintage years where the Preqin Median Net IRR is greater than 12%.

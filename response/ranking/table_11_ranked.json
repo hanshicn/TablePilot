@@ -1,0 +1,379 @@
+[
+    {
+        "query": "Filter the table to show only the years where the 'Tax Rate %' was greater than 70%.",
+        "criteria": {
+            "Meaningful": {
+                "score": 1,
+                "reason": "The query is not meaningful as it results in an empty DataFrame, indicating no years meet the criteria."
+            },
+            "Relative": {
+                "score": 2,
+                "reason": "The query is somewhat related to the table theme as it attempts to analyze tax rates, but it fails to provide any useful data."
+            },
+            "Reasonableness": {
+                "score": 1,
+                "reason": "The query is not reasonable given the data, as it results in an empty DataFrame."
+            },
+            "Diversity": {
+                "score": 1,
+                "reason": "This query does not add diversity as it fails to provide any data for analysis."
+            },
+            "Interpretable": {
+                "score": 3,
+                "reason": "The query is clear and easy to understand, but the result is not useful."
+            },
+            "Insightful": {
+                "score": 1,
+                "reason": "The query does not provide any insights due to the empty result."
+            }
+        }
+    },
+    {
+        "query": "Sort the table by 'Slope' in descending order to identify the years with the steepest changes in tax policy.",
+        "criteria": {
+            "Meaningful": {
+                "score": 4,
+                "reason": "Sorting by 'Slope' helps identify years with significant changes in tax policy, which is useful for analysis."
+            },
+            "Relative": {
+                "score": 4,
+                "reason": "The query is relevant as it focuses on 'Slope', a key column related to tax policy changes."
+            },
+            "Reasonableness": {
+                "score": 5,
+                "reason": "The query is reasonable and logically structured, providing a clear view of changes over time."
+            },
+            "Diversity": {
+                "score": 3,
+                "reason": "This adds some diversity by focusing on 'Slope', but sorting is a common operation."
+            },
+            "Interpretable": {
+                "score": 5,
+                "reason": "The query is straightforward and easy to interpret."
+            },
+            "Insightful": {
+                "score": 4,
+                "reason": "The query provides insights into the years with the most significant policy changes."
+            }
+        }
+    },
+    {
+        "query": "Group the data by 'Tax Year' and calculate the average 'Factor' for each year to understand how the factor has changed over time.",
+        "criteria": {
+            "Meaningful": {
+                "score": 3,
+                "reason": "The query provides a basic understanding of how 'Factor' changes over time, but lacks depth."
+            },
+            "Relative": {
+                "score": 3,
+                "reason": "The query is somewhat relevant as it focuses on 'Factor', which is related to economic adjustments."
+            },
+            "Reasonableness": {
+                "score": 4,
+                "reason": "The query is reasonable and provides a logical grouping of data."
+            },
+            "Diversity": {
+                "score": 3,
+                "reason": "This adds some diversity by focusing on 'Factor', but grouping is a common operation."
+            },
+            "Interpretable": {
+                "score": 4,
+                "reason": "The query is clear and easy to interpret."
+            },
+            "Insightful": {
+                "score": 3,
+                "reason": "The query provides some insights into changes in 'Factor', but lacks depth."
+            }
+        }
+    },
+    {
+        "query": "Create a pivot table to summarize the average 'Slope' for each 'Tax Rate %' across different 'Tax Years'.",
+        "criteria": {
+            "Meaningful": {
+                "score": 4,
+                "reason": "The pivot table provides a summary of 'Slope' for each 'Tax Rate %', which is useful for analysis."
+            },
+            "Relative": {
+                "score": 4,
+                "reason": "The query is relevant as it focuses on 'Slope' and 'Tax Rate %', key columns related to tax policy."
+            },
+            "Reasonableness": {
+                "score": 4,
+                "reason": "The query is reasonable and provides a logical summary of data."
+            },
+            "Diversity": {
+                "score": 4,
+                "reason": "This adds diversity by using a pivot table to summarize data."
+            },
+            "Interpretable": {
+                "score": 4,
+                "reason": "The query is clear and easy to interpret."
+            },
+            "Insightful": {
+                "score": 4,
+                "reason": "The query provides insights into the relationship between 'Slope' and 'Tax Rate %'."
+            }
+        }
+    },
+    {
+        "query": "Add a new column 'Adjusted Slope' which is the product of 'Slope' and 'Factor' to analyze the combined effect of these two variables.",
+        "criteria": {
+            "Meaningful": {
+                "score": 5,
+                "reason": "The new column provides a deeper analysis of the combined effect of 'Slope' and 'Factor', which is highly useful."
+            },
+            "Relative": {
+                "score": 5,
+                "reason": "The query is highly relevant as it combines two key columns related to tax policy and economic adjustments."
+            },
+            "Reasonableness": {
+                "score": 5,
+                "reason": "The query is reasonable and provides a logical extension of the data."
+            },
+            "Diversity": {
+                "score": 5,
+                "reason": "This adds significant diversity by creating a new column for analysis."
+            },
+            "Interpretable": {
+                "score": 5,
+                "reason": "The query is clear and easy to interpret."
+            },
+            "Insightful": {
+                "score": 5,
+                "reason": "The query provides deep insights into the combined effect of 'Slope' and 'Factor'."
+            }
+        }
+    },
+    {
+        "query": "Create a line chart to analyze the trend of 'Tax Rate %' over the 'Tax Year'.",
+        "criteria": {
+            "Meaningful": {
+                "score": 3,
+                "reason": "The line chart shows the trend of 'Tax Rate %', but the data is mostly constant, limiting insights."
+            },
+            "Relative": {
+                "score": 4,
+                "reason": "The query is relevant as it focuses on 'Tax Rate %', a key column related to tax policy."
+            },
+            "Reasonableness": {
+                "score": 3,
+                "reason": "The query is reasonable, but the constant data limits its effectiveness."
+            },
+            "Diversity": {
+                "score": 3,
+                "reason": "This adds some diversity by using a line chart, but the data is not very dynamic."
+            },
+            "Interpretable": {
+                "score": 4,
+                "reason": "The chart is clear and easy to interpret."
+            },
+            "Insightful": {
+                "score": 2,
+                "reason": "The chart provides limited insights due to the constant data."
+            }
+        }
+    },
+    {
+        "query": "Generate a bar chart to compare the 'Slope' values across different 'Tax Years'.",
+        "criteria": {
+            "Meaningful": {
+                "score": 4,
+                "reason": "The bar chart effectively compares 'Slope' values, highlighting changes over time."
+            },
+            "Relative": {
+                "score": 4,
+                "reason": "The query is relevant as it focuses on 'Slope', a key column related to tax policy changes."
+            },
+            "Reasonableness": {
+                "score": 4,
+                "reason": "The query is reasonable and provides a clear comparison of data."
+            },
+            "Diversity": {
+                "score": 4,
+                "reason": "This adds diversity by using a bar chart to compare data."
+            },
+            "Interpretable": {
+                "score": 5,
+                "reason": "The chart is clear and easy to interpret."
+            },
+            "Insightful": {
+                "score": 4,
+                "reason": "The chart provides insights into changes in 'Slope' over time."
+            }
+        }
+    },
+    {
+        "query": "Create a scatter chart to explore the relationship between 'Factor' and 'Slope'.",
+        "criteria": {
+            "Meaningful": {
+                "score": 5,
+                "reason": "The scatter chart effectively explores the relationship between 'Factor' and 'Slope', providing valuable insights."
+            },
+            "Relative": {
+                "score": 5,
+                "reason": "The query is highly relevant as it focuses on the relationship between two key columns."
+            },
+            "Reasonableness": {
+                "score": 5,
+                "reason": "The query is reasonable and provides a logical exploration of data."
+            },
+            "Diversity": {
+                "score": 5,
+                "reason": "This adds significant diversity by using a scatter chart to explore relationships."
+            },
+            "Interpretable": {
+                "score": 5,
+                "reason": "The chart is clear and easy to interpret."
+            },
+            "Insightful": {
+                "score": 5,
+                "reason": "The chart provides deep insights into the relationship between 'Factor' and 'Slope'."
+            }
+        }
+    },
+    {
+        "query": "Generate a combo chart to visualize 'Tax Rate %' and 'Slope' over 'Tax Year'.",
+        "criteria": {
+            "Meaningful": {
+                "score": 4,
+                "reason": "The combo chart provides a comprehensive view of 'Tax Rate %' and 'Slope' over time, which is useful for analysis."
+            },
+            "Relative": {
+                "score": 4,
+                "reason": "The query is relevant as it focuses on two key columns related to tax policy."
+            },
+            "Reasonableness": {
+                "score": 4,
+                "reason": "The query is reasonable and provides a logical combination of data."
+            },
+            "Diversity": {
+                "score": 5,
+                "reason": "This adds significant diversity by using a combo chart to visualize multiple data points."
+            },
+            "Interpretable": {
+                "score": 4,
+                "reason": "The chart is clear and easy to interpret."
+            },
+            "Insightful": {
+                "score": 4,
+                "reason": "The chart provides insights into the relationship between 'Tax Rate %' and 'Slope' over time."
+            }
+        }
+    },
+    {
+        "query": "Create a stacked bar chart to show the distribution of 'Tax Rate %' and 'Factor' over 'Tax Year'.",
+        "criteria": {
+            "Meaningful": {
+                "score": 3,
+                "reason": "The stacked bar chart shows the distribution of 'Tax Rate %' and 'Factor', but the data is mostly constant, limiting insights."
+            },
+            "Relative": {
+                "score": 4,
+                "reason": "The query is relevant as it focuses on two key columns related to tax policy and economic adjustments."
+            },
+            "Reasonableness": {
+                "score": 3,
+                "reason": "The query is reasonable, but the constant data limits its effectiveness."
+            },
+            "Diversity": {
+                "score": 4,
+                "reason": "This adds diversity by using a stacked bar chart to show distribution."
+            },
+            "Interpretable": {
+                "score": 4,
+                "reason": "The chart is clear and easy to interpret."
+            },
+            "Insightful": {
+                "score": 2,
+                "reason": "The chart provides limited insights due to the constant data."
+            }
+        }
+    },
+    {
+        "query": "Perform a trend prediction on the 'Tax Rate %' over the years to forecast future tax rates for the next 5 years.",
+        "criteria": {
+            "Meaningful": {
+                "score": 3,
+                "reason": "The prediction is not very meaningful as the 'Tax Rate %' is mostly constant, limiting the value of the forecast."
+            },
+            "Relative": {
+                "score": 4,
+                "reason": "The query is relevant as it focuses on 'Tax Rate %', a key column related to tax policy."
+            },
+            "Reasonableness": {
+                "score": 3,
+                "reason": "The query is reasonable, but the constant data limits its effectiveness."
+            },
+            "Diversity": {
+                "score": 3,
+                "reason": "This adds some diversity by using trend prediction, but the data is not very dynamic."
+            },
+            "Interpretable": {
+                "score": 4,
+                "reason": "The prediction is clear and easy to interpret."
+            },
+            "Insightful": {
+                "score": 2,
+                "reason": "The prediction provides limited insights due to the constant data."
+            }
+        }
+    },
+    {
+        "query": "Test the correlation between 'Slope' and 'Factor' to understand their relationship in the context of tax policy changes.",
+        "criteria": {
+            "Meaningful": {
+                "score": 5,
+                "reason": "The correlation test provides valuable insights into the relationship between 'Slope' and 'Factor', which is highly useful."
+            },
+            "Relative": {
+                "score": 5,
+                "reason": "The query is highly relevant as it focuses on the relationship between two key columns."
+            },
+            "Reasonableness": {
+                "score": 5,
+                "reason": "The query is reasonable and provides a logical exploration of data."
+            },
+            "Diversity": {
+                "score": 5,
+                "reason": "This adds significant diversity by using correlation testing to explore relationships."
+            },
+            "Interpretable": {
+                "score": 5,
+                "reason": "The test is clear and easy to interpret."
+            },
+            "Insightful": {
+                "score": 5,
+                "reason": "The test provides deep insights into the relationship between 'Slope' and 'Factor'."
+            }
+        }
+    },
+    {
+        "query": "Build a regression model to predict 'In 2010 $$' based on 'Tax Rate %' and 'Slope'.",
+        "criteria": {
+            "Meaningful": {
+                "score": 5,
+                "reason": "The regression model provides valuable insights into the factors influencing 'In 2010 $$', which is highly useful."
+            },
+            "Relative": {
+                "score": 5,
+                "reason": "The query is highly relevant as it focuses on predicting a key column based on other important factors."
+            },
+            "Reasonableness": {
+                "score": 5,
+                "reason": "The query is reasonable and provides a logical exploration of data."
+            },
+            "Diversity": {
+                "score": 5,
+                "reason": "This adds significant diversity by using regression modeling to predict outcomes."
+            },
+            "Interpretable": {
+                "score": 4,
+                "reason": "The model is somewhat complex but still interpretable."
+            },
+            "Insightful": {
+                "score": 5,
+                "reason": "The model provides deep insights into the factors influencing 'In 2010 $$'."
+            }
+        }
+    }
+]

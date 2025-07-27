@@ -1,0 +1,1 @@
+Group the data by 'Vintage' and calculate the average 'Preqin Median Net IRR' for each vintage year.

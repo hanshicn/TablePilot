@@ -1,0 +1,1 @@
+{"code": "import pandas as pd\n\ndf = pd.read_csv('table_name.csv')\ndf['Deprivation Difference'] = df['Indices of Deprivation 2015 - South East U.A.s (n.b. Rank 1 = most deprived).9'] - df['Indices of Deprivation 2015 - South East U.A.s (n.b. Rank 1 = most deprived).1']\ndf.to_csv('output.csv', index=False)"}

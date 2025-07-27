@@ -1,0 +1,5 @@
+{
+    "improvement_reason": "The original code is already well-structured and performs the intended task of grouping the data by 'Vintage' and calculating the average 'Preqin Median Net IRR' for each vintage year. However, to ensure clarity and maintainability, I will add comments to the code to explain each step. This will help future users understand the purpose of each line of code, making it easier to maintain and modify if necessary.",
+    "original_query": "Group the data by 'Vintage' and calculate the average 'Preqin Median Net IRR' for each vintage year.",
+    "optimized_code": "import pandas as pd\n\n# Read the data from the CSV file into a DataFrame\ndf = pd.read_csv('table_name.csv')\n\n# Group the data by 'Vintage' and calculate the mean of 'Preqin Median Net IRR' for each group\ngrouped_df = df.groupby('Vintage')['Preqin Median Net IRR'].mean().reset_index()\n\n# Save the result to a CSV file without the index\ngrouped_df.to_csv('output.csv', index=False)"
+}

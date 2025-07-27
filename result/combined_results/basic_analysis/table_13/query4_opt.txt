@@ -1,0 +1,1 @@
+Create a pivot table to compare the 'Preqin Median Net IRR' and 'LN PME Using S&P 500 TR' for each vintage year.

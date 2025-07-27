@@ -1,0 +1,5 @@
+{
+    "improvement_reason": "The original code correctly calculates the difference between 'Preqin Median Net IRR' and 'LN PME Using S&P 500 TR' and saves the result to a new CSV file. However, the output shows floating-point precision issues in the 'IRR vs PME Difference' column, which can be improved for better readability. This can be addressed by rounding the difference to a reasonable number of decimal places, such as two, which is common in financial data reporting.",
+    "original_query": "Add a new column to the table that calculates the difference between 'Preqin Median Net IRR' and 'LN PME Using S&P 500 TR' to assess the outperformance of private investments over the public market for each vintage year.",
+    "optimized_code": "import pandas as pd\n\ndf = pd.read_csv('table_name.csv')\ndf['IRR vs PME Difference'] = (df['Preqin Median Net IRR'] - df['LN PME Using S&P 500 TR']).round(2)\ndf.to_csv('output.csv', index=False)"
+}

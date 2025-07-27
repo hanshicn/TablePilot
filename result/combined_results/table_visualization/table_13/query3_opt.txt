@@ -1,0 +1,1 @@
+Plot a scatter chart to examine the correlation between Preqin Median Net IRR and LN PME Using S&P 500 TR across different Vintage years.

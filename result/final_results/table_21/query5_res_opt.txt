@@ -1,0 +1,28 @@
+                                                          OLS Regression Results                                                          
+==========================================================================================================================================
+Dep. Variable:     Indices of Deprivation 2015 - South East U.A.s (n.b. Rank 1 = most deprived).9   R-squared:                       0.911
+Model:                                                                                        OLS   Adj. R-squared:                  0.888
+Method:                                                                             Least Squares   F-statistic:                     40.69
+Date:                                                                            Tue, 28 Jan 2025   Prob (F-statistic):           6.42e-05
+Time:                                                                                    14:27:48   Log-Likelihood:                -97.097
+No. Observations:                                                                              11   AIC:                             200.2
+Df Residuals:                                                                                   8   BIC:                             201.4
+Df Model:                                                                                       2                                         
+Covariance Type:                                                                        nonrobust                                         
+==================================================================================================================================================
+                                                                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------------------------------------------------------
+const                                                                           1.315e+04   1528.336      8.605      0.000    9627.614    1.67e+04
+Indices of Deprivation 2015 - South East U.A.s (n.b. Rank 1 = most deprived).1    -0.3392      0.770     -0.440      0.671      -2.115       1.437
+Indices of Deprivation 2015 - South East U.A.s (n.b. Rank 1 = most deprived).3   985.6566    620.341      1.589      0.151    -444.853    2416.167
+==============================================================================
+Omnibus:                        4.679   Durbin-Watson:                   2.301
+Prob(Omnibus):                  0.096   Jarque-Bera (JB):                1.845
+Skew:                           0.968   Prob(JB):                        0.398
+Kurtosis:                       3.526   Cond. No.                     4.05e+04
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 4.05e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.

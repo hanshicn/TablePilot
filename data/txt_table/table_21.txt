@@ -1,0 +1,12 @@
+Table:
+- 'Indices of Deprivation 2015 - South East U.A.s (n.b. Rank 1 = most deprived)' (Column A): ['Bracknell Forest', 'Reading', 'Wokingham', 'Milton Keynes', 'Isle of Wight', ... ]
+- 'Indices of Deprivation 2015 - South East U.A.s (n.b. Rank 1 = most deprived).1' (Column B, Numeric): [8448.26, 7004.34, 18157.98, 20726.94, 19388.79, ... ]
+- 'Indices of Deprivation 2015 - South East U.A.s (n.b. Rank 1 = most deprived).2' (Column C, Numeric): [287, 291, 143, 325, 109, ... ]
+- 'Indices of Deprivation 2015 - South East U.A.s (n.b. Rank 1 = most deprived).3' (Column D, Numeric): [10.242, 19.319, 8.856999999999998, 5.652, 23.441, ... ]
+- 'Indices of Deprivation 2015 - South East U.A.s (n.b. Rank 1 = most deprived).4' (Column E, Numeric): [291, 112, 306, 325, 102, ... ]
+- 'Indices of Deprivation 2015 - South East U.A.s (n.b. Rank 1 = most deprived).5' (Column F, Numeric): [0.0, 0.0, 0.0, 0.0, 0.128, ... ]
+- 'Indices of Deprivation 2015 - South East U.A.s (n.b. Rank 1 = most deprived).6' (Column G, Numeric): [200, 200, 200, 129, 167, ... ]
+- 'Indices of Deprivation 2015 - South East U.A.s (n.b. Rank 1 = most deprived).7' (Column H, Numeric): [0.0106, 0.0014, 0.0, 0.2436, 0.156, ... ]
+- 'Indices of Deprivation 2015 - South East U.A.s (n.b. Rank 1 = most deprived).8' (Column I, Numeric): [292, 267, 152, 302, 133, ... ]
+- 'Indices of Deprivation 2015 - South East U.A.s (n.b. Rank 1 = most deprived).9' (Column J, Numeric): [28061.24, 27017.0, 30048.71, 31364.98, 31896.74, ... ]
+- 'Indices of Deprivation 2015 - South East U.A.s (n.b. Rank 1 = most deprived).10' (Column K, Numeric): [293, 287, 168, 120, 70, ... ]

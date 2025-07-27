@@ -1,0 +1,28 @@
+                              OLS Regression Results                             
+=================================================================================
+Dep. Variable:     Preqin Median Net IRR   R-squared:                       0.337
+Model:                               OLS   Adj. R-squared:                  0.226
+Method:                    Least Squares   F-statistic:                     3.047
+Date:                   Mon, 27 Jan 2025   Prob (F-statistic):             0.0851
+Time:                           23:50:16   Log-Likelihood:                -33.086
+No. Observations:                     15   AIC:                             72.17
+Df Residuals:                         12   BIC:                             74.30
+Df Model:                              2                                         
+Covariance Type:               nonrobust                                         
+===========================================================================================
+                              coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------
+const                      46.9574    637.716      0.074      0.943   -1342.507    1436.422
+Vintage                    -0.0194      0.319     -0.061      0.953      -0.715       0.676
+LN PME Using S&P 500 TR     0.3784      0.318      1.189      0.258      -0.315       1.072
+==============================================================================
+Omnibus:                        1.070   Durbin-Watson:                   0.647
+Prob(Omnibus):                  0.586   Jarque-Bera (JB):                0.826
+Skew:                          -0.518   Prob(JB):                        0.662
+Kurtosis:                       2.504   Cond. No.                     2.02e+06
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 2.02e+06. This might indicate that there are
+strong multicollinearity or other numerical problems.

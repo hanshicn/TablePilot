@@ -1,0 +1,1 @@
+{"code": "import pandas as pd\n\ndf = pd.read_csv('table_name.csv')\ndf['IRR vs PME Difference'] = (df['Preqin Median Net IRR'] - df['LN PME Using S&P 500 TR']).round(2)\ndf.to_csv('output.csv', index=False)"}

@@ -1,0 +1,1 @@
+{"code": "import pandas as pd\ndf = pd.read_csv('table_name.csv')\ndf['Adjusted Slope'] = (df['Slope'] * df['Factor']).round(2)\ndf.to_csv('output.csv', index=False)"}

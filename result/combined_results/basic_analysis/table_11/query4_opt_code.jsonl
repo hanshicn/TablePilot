@@ -1,0 +1,1 @@
+{"code": "import pandas as pd\ndf = pd.read_csv('table_name.csv')\npivot_table = df.pivot_table(values='Slope', index='Tax Rate %', aggfunc='mean').reset_index()\npivot_table.to_csv('output.csv', index=False)"}

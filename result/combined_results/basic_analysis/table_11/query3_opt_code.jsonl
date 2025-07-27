@@ -1,0 +1,1 @@
+{"code": "import pandas as pd\ndf = pd.read_csv('table_name.csv')\n# Handle missing values in 'Factor' by dropping them\ndf = df.dropna(subset=['Factor'])\ngrouped_df = df.groupby('Tax Year')['Factor'].mean().reset_index()\ngrouped_df.to_csv('output.csv', index=False)"}

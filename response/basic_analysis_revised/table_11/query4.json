@@ -1,0 +1,5 @@
+{
+    "improvement_reason": "The original code attempts to create a pivot table with 'Tax Year' as the index and 'Tax Rate %' as the columns, which is not aligned with the query's requirement. The query asks for a summary of the average 'Slope' for each 'Tax Rate %' across different 'Tax Years', which means 'Tax Rate %' should be the index and 'Tax Year' should not be a column in the pivot table. The pivot table should summarize the average 'Slope' for each 'Tax Rate %', not for each combination of 'Tax Year' and 'Tax Rate %'.",
+    "original_query": "Create a pivot table to summarize the average 'Slope' for each 'Tax Rate %' across different 'Tax Years'.",
+    "optimized_code": "import pandas as pd\ndf = pd.read_csv('table_name.csv')\npivot_table = df.pivot_table(values='Slope', index='Tax Rate %', aggfunc='mean').reset_index()\npivot_table.to_csv('output.csv', index=False)"
+}

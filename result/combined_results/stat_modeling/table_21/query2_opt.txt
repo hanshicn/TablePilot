@@ -1,0 +1,1 @@
+Build a regression model to predict the aggregate measure of deprivation (Column J) based on the composite score (Column B) and the percentage of population affected by a certain deprivation factor (Column D).

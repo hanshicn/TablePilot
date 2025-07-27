@@ -1,0 +1,1 @@
+{"code": "import pandas as pd\ndf = pd.read_csv('table_name.csv')\nfiltered_df = df[df['Tax Rate %'] >= 70]\nfiltered_df.to_csv('output.csv', index=False)"}

@@ -1,0 +1,8 @@
+Data is not stationary. Consider differencing or other transformations.
+    Vintage  Forecasted IRR
+15     2015            14.0
+16     2016            14.0
+17     2017            14.0
+18     2018            14.0
+19     2019            14.0
+MAPE: 0.10012420771914447

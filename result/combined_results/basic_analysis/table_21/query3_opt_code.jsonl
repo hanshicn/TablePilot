@@ -1,0 +1,1 @@
+{"code": "import pandas as pd\n\ndf = pd.read_csv('table_name.csv')\ngrouped_df = df.groupby('Indices of Deprivation 2015 - South East U.A.s (n.b. Rank 1 = most deprived).5')['Indices of Deprivation 2015 - South East U.A.s (n.b. Rank 1 = most deprived).1'].mean().reset_index()\ngrouped_df.to_csv('output.csv', index=False)"}

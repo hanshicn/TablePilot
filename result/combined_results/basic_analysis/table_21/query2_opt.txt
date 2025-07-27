@@ -1,0 +1,1 @@
+Sort the dataset by the final rank or score (Column K) in ascending order to identify the most deprived Unitary Authorities.

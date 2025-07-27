@@ -1,0 +1,1 @@
+Insert a new column to calculate the difference between the total aggregate measure of deprivation (Column J) and the composite score (Column B) for each Unitary Authority.

@@ -1,0 +1,4 @@
+Table:
+- 'Vintage' (Column A, Numeric): [2001, 2002, 2006, 2008, 2013, ... ]
+- 'Preqin Median Net IRR' (Column B, Numeric): [8.7, 10.2, 11.5, 12.8, 15.5, ... ]
+- 'LN PME Using S&P 500 TR' (Column C, Numeric): [5.6, 4.1, 6.5, 10.7, 13.9, ... ]

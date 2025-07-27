@@ -1,0 +1,379 @@
+[
+    {
+        "query": "Filter the dataset to find the Unitary Authorities with a composite score (Column B) less than 10000, indicating higher deprivation.",
+        "criteria": {
+            "Meaningful": {
+                "score": 5,
+                "reason": "This query is highly meaningful as it directly identifies the most deprived areas, which is crucial for targeted interventions."
+            },
+            "Relative": {
+                "score": 5,
+                "reason": "The query is directly related to the table's theme of deprivation analysis."
+            },
+            "Reasonableness": {
+                "score": 5,
+                "reason": "The query logically filters data based on a key indicator of deprivation, making it a reasonable approach."
+            },
+            "Diversity": {
+                "score": 4,
+                "reason": "While filtering is a common task, it provides a specific focus on high deprivation areas, adding diversity to the analysis."
+            },
+            "Interpretable": {
+                "score": 5,
+                "reason": "The query is straightforward and easy to understand, with clear criteria for filtering."
+            },
+            "Insightful": {
+                "score": 4,
+                "reason": "The query provides insights into which areas are most deprived, though it doesn't explore deeper relationships."
+            }
+        }
+    },
+    {
+        "query": "Sort the dataset by the final rank or score (Column K) in ascending order to identify the most deprived Unitary Authorities.",
+        "criteria": {
+            "Meaningful": {
+                "score": 4,
+                "reason": "Sorting by final rank helps identify the most deprived areas, which is useful but somewhat basic."
+            },
+            "Relative": {
+                "score": 5,
+                "reason": "The query is directly related to the table's theme, focusing on overall deprivation ranking."
+            },
+            "Reasonableness": {
+                "score": 5,
+                "reason": "Sorting by rank is a logical and reasonable approach to identify deprivation levels."
+            },
+            "Diversity": {
+                "score": 3,
+                "reason": "Sorting is a basic operation and doesn't add much diversity to the analysis."
+            },
+            "Interpretable": {
+                "score": 5,
+                "reason": "The query is simple and easy to interpret, with clear sorting criteria."
+            },
+            "Insightful": {
+                "score": 3,
+                "reason": "While it identifies the most deprived areas, it doesn't provide deeper insights into the data."
+            }
+        }
+    },
+    {
+        "query": "Group the dataset by the presence or absence of a specific deprivation factor (Column F) and calculate the average composite score (Column B) for each group.",
+        "criteria": {
+            "Meaningful": {
+                "score": 4,
+                "reason": "Grouping by deprivation factor presence provides insights into how specific factors affect overall deprivation."
+            },
+            "Relative": {
+                "score": 4,
+                "reason": "The query is relevant to the theme, focusing on specific deprivation factors."
+            },
+            "Reasonableness": {
+                "score": 4,
+                "reason": "The grouping and averaging approach is reasonable for understanding factor impacts."
+            },
+            "Diversity": {
+                "score": 5,
+                "reason": "This query adds diversity by exploring categorical data and its impact on scores."
+            },
+            "Interpretable": {
+                "score": 4,
+                "reason": "The query is mostly clear, though understanding the categorical nature of Column F may require some explanation."
+            },
+            "Insightful": {
+                "score": 4,
+                "reason": "The query provides insights into the impact of specific deprivation factors on composite scores."
+            }
+        }
+    },
+    {
+        "query": "Create a pivot table to summarize the average percentage of the population affected by a certain deprivation factor (Column D) for each Unitary Authority (Column A).",
+        "criteria": {
+            "Meaningful": {
+                "score": 3,
+                "reason": "The pivot table provides a summary but lacks depth in analysis."
+            },
+            "Relative": {
+                "score": 4,
+                "reason": "The query is relevant as it focuses on a specific aspect of deprivation."
+            },
+            "Reasonableness": {
+                "score": 4,
+                "reason": "Creating a pivot table is a reasonable method for summarizing data."
+            },
+            "Diversity": {
+                "score": 3,
+                "reason": "Pivot tables are common, and this query doesn't add much diversity."
+            },
+            "Interpretable": {
+                "score": 4,
+                "reason": "The query is clear, though interpreting the pivot table may require some understanding of the data."
+            },
+            "Insightful": {
+                "score": 3,
+                "reason": "The query provides a basic summary without uncovering deeper insights."
+            }
+        }
+    },
+    {
+        "query": "Insert a new column to calculate the difference between the total aggregate measure of deprivation (Column J) and the composite score (Column B) for each Unitary Authority.",
+        "criteria": {
+            "Meaningful": {
+                "score": 4,
+                "reason": "Calculating the difference between aggregate and composite scores can highlight discrepancies in deprivation measures."
+            },
+            "Relative": {
+                "score": 4,
+                "reason": "The query is relevant as it focuses on key deprivation measures."
+            },
+            "Reasonableness": {
+                "score": 4,
+                "reason": "The calculation is reasonable for identifying differences in deprivation measures."
+            },
+            "Diversity": {
+                "score": 4,
+                "reason": "This query adds diversity by introducing a new calculated metric."
+            },
+            "Interpretable": {
+                "score": 4,
+                "reason": "The query is clear, though understanding the significance of the difference may require explanation."
+            },
+            "Insightful": {
+                "score": 4,
+                "reason": "The query provides insights into potential discrepancies between different deprivation measures."
+            }
+        }
+    },
+    {
+        "query": "Create a bar chart to compare the composite deprivation scores (Column B) across different Unitary Authorities (Column A) in the South East region.",
+        "criteria": {
+            "Meaningful": {
+                "score": 4,
+                "reason": "The bar chart provides a visual comparison of deprivation scores, which is useful for identifying patterns."
+            },
+            "Relative": {
+                "score": 5,
+                "reason": "The chart is directly related to the theme, focusing on composite scores."
+            },
+            "Reasonableness": {
+                "score": 5,
+                "reason": "Using a bar chart for comparison is a reasonable and effective approach."
+            },
+            "Diversity": {
+                "score": 3,
+                "reason": "Bar charts are common, and this query doesn't add much diversity."
+            },
+            "Interpretable": {
+                "score": 5,
+                "reason": "The chart is clear and easy to interpret, with well-defined axes and labels."
+            },
+            "Insightful": {
+                "score": 3,
+                "reason": "The chart provides a visual summary but doesn't uncover deeper insights."
+            }
+        }
+    },
+    {
+        "query": "Generate a scatter chart to analyze the correlation between the composite deprivation score (Column B) and the percentage of population affected by a certain deprivation factor (Column D) for each Unitary Authority.",
+        "criteria": {
+            "Meaningful": {
+                "score": 5,
+                "reason": "The scatter chart effectively visualizes the relationship between two key deprivation indicators."
+            },
+            "Relative": {
+                "score": 5,
+                "reason": "The chart is highly relevant, focusing on important aspects of deprivation."
+            },
+            "Reasonableness": {
+                "score": 5,
+                "reason": "Using a scatter chart to analyze correlation is a reasonable approach."
+            },
+            "Diversity": {
+                "score": 4,
+                "reason": "The query adds diversity by exploring relationships between variables."
+            },
+            "Interpretable": {
+                "score": 5,
+                "reason": "The chart is clear, with well-defined axes and a visible trend."
+            },
+            "Insightful": {
+                "score": 5,
+                "reason": "The chart reveals a strong correlation, providing valuable insights into the data."
+            }
+        }
+    },
+    {
+        "query": "Create a pie chart to show the proportion of the total aggregate deprivation measure (Column J) for the top 5 most deprived Unitary Authorities.",
+        "criteria": {
+            "Meaningful": {
+                "score": 4,
+                "reason": "The pie chart provides a visual representation of the distribution of deprivation among the top areas."
+            },
+            "Relative": {
+                "score": 4,
+                "reason": "The chart is relevant as it focuses on the most deprived areas."
+            },
+            "Reasonableness": {
+                "score": 4,
+                "reason": "Using a pie chart to show proportions is reasonable, though it may not be the best choice for detailed analysis."
+            },
+            "Diversity": {
+                "score": 4,
+                "reason": "The query adds diversity by using a different chart type to explore proportions."
+            },
+            "Interpretable": {
+                "score": 4,
+                "reason": "The chart is mostly clear, though pie charts can sometimes be difficult to interpret accurately."
+            },
+            "Insightful": {
+                "score": 3,
+                "reason": "The chart provides a basic overview without uncovering deeper insights."
+            }
+        }
+    },
+    {
+        "query": "Generate a line chart to observe the trend of the final deprivation rank (Column K) across different Unitary Authorities (Column A).",
+        "criteria": {
+            "Meaningful": {
+                "score": 3,
+                "reason": "The line chart shows trends but may not be the best choice for categorical data like ranks."
+            },
+            "Relative": {
+                "score": 4,
+                "reason": "The chart is relevant as it focuses on final deprivation ranks."
+            },
+            "Reasonableness": {
+                "score": 3,
+                "reason": "Using a line chart for rank data is less reasonable, as ranks are not continuous."
+            },
+            "Diversity": {
+                "score": 3,
+                "reason": "Line charts are common, and this query doesn't add much diversity."
+            },
+            "Interpretable": {
+                "score": 4,
+                "reason": "The chart is clear, though interpreting trends in rank data may be challenging."
+            },
+            "Insightful": {
+                "score": 3,
+                "reason": "The chart provides a basic trend overview without deeper insights."
+            }
+        }
+    },
+    {
+        "query": "Create a stacked bar chart to compare the different ranks (Columns C, E, and I) for each Unitary Authority (Column A) to analyze the multi-dimensional aspects of deprivation.",
+        "criteria": {
+            "Meaningful": {
+                "score": 5,
+                "reason": "The stacked bar chart effectively visualizes multiple dimensions of deprivation, providing a comprehensive view."
+            },
+            "Relative": {
+                "score": 5,
+                "reason": "The chart is highly relevant, focusing on multiple aspects of deprivation."
+            },
+            "Reasonableness": {
+                "score": 5,
+                "reason": "Using a stacked bar chart to compare multiple ranks is a reasonable approach."
+            },
+            "Diversity": {
+                "score": 5,
+                "reason": "The query adds diversity by exploring multiple dimensions in a single chart."
+            },
+            "Interpretable": {
+                "score": 4,
+                "reason": "The chart is mostly clear, though understanding stacked bars may require some explanation."
+            },
+            "Insightful": {
+                "score": 5,
+                "reason": "The chart provides valuable insights into the multi-dimensional nature of deprivation."
+            }
+        }
+    },
+    {
+        "query": "Perform a correlation test between the composite deprivation score (Column B) and the percentage of population affected by a certain deprivation factor (Column D) to determine the strength and significance of their relationship.",
+        "criteria": {
+            "Meaningful": {
+                "score": 5,
+                "reason": "The correlation test provides a quantitative measure of the relationship between two key indicators."
+            },
+            "Relative": {
+                "score": 5,
+                "reason": "The test is highly relevant, focusing on important aspects of deprivation."
+            },
+            "Reasonableness": {
+                "score": 5,
+                "reason": "Performing a correlation test is a reasonable approach to assess relationships."
+            },
+            "Diversity": {
+                "score": 4,
+                "reason": "The query adds diversity by introducing statistical analysis."
+            },
+            "Interpretable": {
+                "score": 4,
+                "reason": "The results are clear, though understanding correlation coefficients may require some explanation."
+            },
+            "Insightful": {
+                "score": 5,
+                "reason": "The test reveals a strong correlation, providing valuable insights into the data."
+            }
+        }
+    },
+    {
+        "query": "Build a regression model to predict the aggregate measure of deprivation (Column J) based on the composite score (Column B) and the percentage of population affected by a certain deprivation factor (Column D).",
+        "criteria": {
+            "Meaningful": {
+                "score": 5,
+                "reason": "The regression model provides predictive insights, which are highly valuable for understanding deprivation."
+            },
+            "Relative": {
+                "score": 5,
+                "reason": "The model is highly relevant, focusing on key deprivation measures."
+            },
+            "Reasonableness": {
+                "score": 5,
+                "reason": "Building a regression model is a reasonable approach for prediction."
+            },
+            "Diversity": {
+                "score": 5,
+                "reason": "The query adds diversity by introducing advanced statistical modeling."
+            },
+            "Interpretable": {
+                "score": 3,
+                "reason": "The results are complex and may require explanation to understand fully."
+            },
+            "Insightful": {
+                "score": 5,
+                "reason": "The model provides predictive insights, revealing potential future trends in deprivation."
+            }
+        }
+    },
+    {
+        "query": "Perform a correlation test between the final rank or score (Column K) and the composite deprivation score (Column B) to assess the relationship between overall deprivation status and the composite score.",
+        "criteria": {
+            "Meaningful": {
+                "score": 4,
+                "reason": "The correlation test provides insights into the relationship between overall status and composite scores."
+            },
+            "Relative": {
+                "score": 5,
+                "reason": "The test is relevant, focusing on key deprivation measures."
+            },
+            "Reasonableness": {
+                "score": 5,
+                "reason": "Performing a correlation test is a reasonable approach to assess relationships."
+            },
+            "Diversity": {
+                "score": 4,
+                "reason": "The query adds diversity by introducing statistical analysis."
+            },
+            "Interpretable": {
+                "score": 4,
+                "reason": "The results are clear, though understanding correlation coefficients may require some explanation."
+            },
+            "Insightful": {
+                "score": 4,
+                "reason": "The test provides insights into the relationship between different deprivation measures."
+            }
+        }
+    }
+]

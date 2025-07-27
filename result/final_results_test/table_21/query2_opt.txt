@@ -1,0 +1,1 @@
+Create a stacked bar chart to compare the different ranks (Columns C, E, and I) for each Unitary Authority (Column A) to analyze the multi-dimensional aspects of deprivation.
