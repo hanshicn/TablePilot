@@ -102,6 +102,20 @@ If you find this repository useful, please considering giving ⭐ or citing:
   journal={arXiv preprint arXiv:2503.13262},
   year={2025}
 }
+
+@inproceedings{yi2025tablepilot,
+    title = "{T}able{P}ilot: Recommending Human-Preferred Tabular Data Analysis with Large Language Models",
+    author={Yi, Deyin and Liu, Yihao and Cao, Lang and Zhou, Mengyu and Dong, Haoyu and Han, Shi and Zhang, Dongmei},
+    editor = "Rehm, Georg and Li, Yunyao",
+    booktitle = "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 6: Industry Track)",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.acl-industry.28/",
+    pages = "355--410",
+    ISBN = "979-8-89176-288-6",
+}
 ```
 
 ## Contributing
