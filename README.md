@@ -97,7 +97,7 @@ bash run_exec_rate.sh
 If you find this repository useful, please considering giving ⭐ or citing:
 ```
 @article{yi2025tablepilot,
-  title={TablePilot; Recommending Human-Preferred Tabular Data Analysis with Large Language Models},
+  title={TablePilot: Recommending Human-Preferred Tabular Data Analysis with Large Language Models},
   author={Yi, Deyin and Liu, Yihao and Cao, Lang and Zhou, Mengyu and Dong, Haoyu and Han, Shi and Zhang, Dongmei},
   journal={arXiv preprint arXiv:2503.13262},
   year={2025}
